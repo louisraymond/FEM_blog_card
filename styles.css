@@ -35,6 +35,8 @@ body {
     align-items: center;
     flex-direction: column;
     font-family: "figtree", sans-serif;
+    height: 100vh;
+    width: 100vw;
 }
 
 .profile-picture {
