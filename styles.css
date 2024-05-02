@@ -1,24 +1,8 @@
-@font-face {
-    font-family: "figtree";
-    src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
-    font-weight: 800;
-}
 
 @font-face {
     font-family: "figtree";
-    src: url(assets/fonts/static/Figtree-SemiBold.ttf);
-    font-weight: 600;
-}
-
-@font-face {
-    font-family: "figtree";
-    src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
-    font-style: italic;
-}
-
-@font-face {
-    font-family: "figtree";
-    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+    src: url(assets/fonts/static/Figtree-VariableFont-wght.ttf) format('TrueType');
+    font-weight:1 800;
 }
 
 :root {
@@ -68,6 +52,7 @@ body {
 h1 {
     color:  var(--black);
     font-size: 24px;
+    transition: color 200ms ease-out;
 }
 
 h1:hover {
